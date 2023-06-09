@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content="width=device-width", initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,100;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <section class="course">
+        <h1>Courses we Offer</h1>
+        <p>Engineering Medicine Computer</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Diploma</h3>
+                <p>This include more than 20 courses over a period of 3 academic years</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>This include more than 10 courses over a period of 4 academic years</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduate</h3>
+                <p>This include more than 5 courses over a period of 4 academic years</p>
+            </div>
+        </div>
+    </section>
+    <section class="allcourses">
+        <div class="diploma">
+        <h2>Diploma Courses</h2>
+        <ul>
+          <li>Medical Laboratory Technician</li>
+          <li>Engineering Design and Drafting</li>
+          <li>Computer Programming</li>
+          <li>Pharmacy Technician</li>
+          <li>Electronics Engineering Technology</li>
+          <li>Network Administration</li>
+          <li>Medical Office Administration</li>
+          <li>Civil Engineering Technician</li>
+          <li>Software Development</li>
+          <li>Information Technology</li>
+          <li>Electrical Engineering</li>
+          <li>Computerized Accounting</li>
+          <li>Biomedical Equipment Technology</li>
+          <li>Mechanical Engineering Technology</li>
+          <li>Web Design and Development</li>
+          <li>Medical Transcriptionist</li>
+          <li>Automotive Engineering Technician</li>
+          <li>Database Administration</li>
+          <li>Healthcare Administration</li>
+          <li>Graphic Design</li>
+        </ul>
+        </div>
+        <div class="degree">
+        
+        <h2>Degree Courses</h2>
+        <ul>
+          <li>Bachelor of Medicine and Surgery</li>
+          <li>Bachelor of Engineering (Civil)</li>
+          <li>Bachelor of Computer Science</li>
+          <li>Bachelor of Pharmacy</li>
+          <li>Bachelor of Electrical Engineering</li>
+          <li>Bachelor of Information Technology</li>
+          <li>Bachelor of Biomedical Engineering</li>
+          <li>Bachelor of Software Engineering</li>
+          <li>Bachelor of Computer Engineering</li>
+          <li>Bachelor of Mechanical Engineering</li>
+        </ul>
+        </div>
+        <div class="postgraduate">
+        
+        <h2>Postgraduate Courses</h2>
+        <h3>Medicine</h3>
+        <ul>
+          <li>Master of Medicine (Anesthesiology)</li>
+          <li>Master of Surgery (Orthopedics)</li>
+          <li>Doctor of Medicine (Internal Medicine)</li>
+          <li>Doctor of Philosophy (PhD) in Medical Sciences</li>
+          <li>Master of Public Health</li>
+          <li>Doctor of Medicine (Pediatrics)</li>
+          <li>Master of Surgery (General Surgery)</li>
+          <li>Master of Medicine (Radiology)</li>
+          <li>Doctor of Philosophy (PhD) in Biomedical Engineering</li>
+          <li>Master of Science (Medical Microbiology)</li>
+        </ul>
+        <h3>Engineering</h3>
+        <ul>
+          <li>Master of Engineering (Civil Engineering)</li>
+          <li>Master of Science (Electrical Engineering)</li>
+          <li>Doctor of Philosophy (PhD) in Mechanical Engineering</li>
+          <li>Master of Engineering (Chemical Engineering)</li>
+          <li>Master of Science (Environmental Engineering)</li>
+          <li>Doctor of Philosophy (PhD) in Civil Engineering</li>
+          <li>Master of Engineering (Computer Engineering)</li>
+          <li>Master of Science (Industrial Engineering)</li>
+          <li>Doctor of Philosophy (PhD) in Electrical Engineering</li>
+          <li>Master of Engineering (Mechanical Engineering)</li>
+        </ul>
+        
+        <h3>Computer Science</h3>
+        <ul>
+          <li>Master of Science (Computer Science)</li>
+          <li>Master of Computer Applications</li>
+        </ul> 
+        </div> 
+</section>   
+<section class="footer">
+    <h4>BU</h4>
+    <p>The University of your choice!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by <a href="https://twitter.com/ronnoh_felix" target="_blank">Felix Ronoh</a>.</p>
+
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

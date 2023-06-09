@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content="width=device-width", initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,100;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Insights and Inspirations:Unleashing Your Potential at BU.</h1>
+    </section>
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Insights and Inspirations</h2>
+            <p>1. "Mastering Time Management: Tips for Maximizing Productivity"
+                <br>
+                Time management is a crucial skill for success in any endeavor. In this blog post, we explore effective strategies and techniques to help you make the most of your time. Discover practical tips, such as prioritizing tasks, setting clear goals, and minimizing distractions. Learn how to create a well-structured schedule that allows you to accomplish more while maintaining a healthy work-life balance. Whether you're a student, professional, or entrepreneur, mastering time management can unlock your full potential and propel you towards your goals.
+                <br>
+                2. "The Power of Networking: Building Meaningful Connections"
+                <br>
+                Networking is not just about exchanging business cards; it's about building meaningful relationships that can open doors and create opportunities. In this blog post, we delve into the importance of networking and provide valuable insights on how to network effectively. From attending industry events and leveraging social media platforms to cultivating genuine connections, we offer practical advice to help you expand your professional network. Discover how networking can enhance your career prospects and provide you with a supportive community of like-minded individuals.
+                <br>
+                3. "Navigating the Job Market: Essential Skills for Career Success"
+                <br>
+                As the job market becomes increasingly competitive, it's crucial to equip yourself with the right skills to stand out from the crowd. In this blog post, we explore the essential skills that employers value in today's dynamic workforce. From communication and problem-solving to adaptability and leadership, we discuss how to develop and showcase these skills effectively. Gain valuable insights on crafting a compelling resume, acing job interviews, and staying ahead of industry trends. Whether you're a recent graduate or an experienced professional, this blog post will provide you with valuable strategies to navigate the ever-changing job market.
+                <br>
+                4. "Entrepreneurship 101: Turning Your Passion into a Successful Business"
+                <br>
+                Have you ever dreamt of starting your own business and being your own boss? In this blog post, we guide you through the fundamentals of entrepreneurship. Learn how to identify your passion, validate your business idea, and create a solid business plan. Discover essential tips on securing funding, marketing your products or services, and building a strong brand. Whether you're a budding entrepreneur or simply curious about the world of startups, this blog post will inspire and equip you with the knowledge you need to embark on your entrepreneurial journey.</p>
+        <div class="comment-box">
+            <h3>Leave a Comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+        </div>
+        <div class="blog-right">
+             <h3>Post Categories</h3>
+             <div>
+                 <span>Mastering Time Management: Tips for Maximizing Productivity</span>
+                 <span>1</span>
+             </div>
+             <div>
+                 <span>The Power of Networking: Building Meaningful Connections</span>
+                 <span>2</span>
+             </div>
+             <div>
+                 <span>Navigating the Job Market: Essential Skills for Career Success</span>
+                 <span>3</span>
+             </div>
+             <div>
+                 <span>Entrepreneurship 101: Turning Your Passion into a Successful Business</span>
+                 <span>4</span>
+        </div>
+
+    </div>
+</section>
+<section class="footer">
+    <h4>BU</h4>
+    <p>The University of your choice!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by <a href="https://twitter.com/ronnoh_felix" target="_blank">Felix Ronoh</a>.</p>
+
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
